@@ -6,9 +6,9 @@
 
 Arqueólogos encontraram um pergaminho com os seguintes textos:
 
-Texto A: [TextoA](/TextoA.txt)
+[Texto A:](/TextoA.txt)
 
-Texto B: [TextoB](/TextoB.txt)
+[Texto B:](/TextoB.txt)
 
 
 Esses pergaminhos estão no antigo e misterioso idioma Klingon. Após muitos anos de estudo, os linguistas já conhecem algumas características desse idioma.
@@ -40,6 +40,6 @@ Assim, ao fazer essas listas, o professor deve respeitar a ordem alfabética Kli
 
 O professor preparou a lista de vocabulário para o Texto A:
 
-Lista de vocabulário do Texto A: [Vocabulario Texto A](/TextoAOrdenado.txt)
+[Lista de Vocabulario Texto A:](/TextoAOrdenado.txt)
 
 ### Como seria a lista de vocabulário do Texto B?
