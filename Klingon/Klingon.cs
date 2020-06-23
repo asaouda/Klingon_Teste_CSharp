@@ -32,7 +32,7 @@ namespace Klingon_Desafio
             var qtdeVerboPrimeira = 0;
             foreach (var palavra in texto.Split(" "))
             {
-                var ultimaLetra = palavra[palavra.Length - 1];
+                var ultimaLetra = palavra[^1];
                 var primeiraLetra = palavra[0];
 
                 if (palavra.Length >= 8 && _foo.Contains(ultimaLetra))
@@ -59,7 +59,7 @@ namespace Klingon_Desafio
             var textoSemRepeticao = new StringBuilder("");
             foreach (var palavra in texto.Split(" "))
             {
-                if (!textoSemRepeticao.ToString().Contains(" " + palavra + " "))
+                if (!textoSemRepeticao.ToString().Contains($" {palavra} "))
                 {
                     if (textoSemRepeticao.Length == 0)
                     {
@@ -67,7 +67,8 @@ namespace Klingon_Desafio
                     }
                     else
                     {
-                        textoSemRepeticao.Append(" " + palavra);
+                        textoSemRepeticao.Append(" ");
+                        textoSemRepeticao.Append(palavra);
                     }
                 }
             }
