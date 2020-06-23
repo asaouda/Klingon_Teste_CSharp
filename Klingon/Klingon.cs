@@ -67,7 +67,7 @@ namespace Klingon_Desafio
                     }
                     else
                     {
-                        textoSemRepeticao.Append(palavra);
+                        textoSemRepeticao.Append(" " + palavra);
                     }
                 }
             }
