@@ -1,5 +1,6 @@
 #TESTE DE KLINGON
 -------------------------------
+[![Build status](https://ci.appveyor.com/api/projects/status/9h0u0aijrxodt2km?svg=true)](https://ci.appveyor.com/project/asaouda/klingon-teste-csharp)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/69e041ab7cb849b59b7ae291276048b0)](https://www.codacy.com/manual/asaouda/Klingon_Teste_CSharp?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=asaouda/Klingon_Teste_CSharp&amp;utm_campaign=Badge_Grade)
 Arqueólogos encontraram um pergaminho com os seguintes textos:
 
