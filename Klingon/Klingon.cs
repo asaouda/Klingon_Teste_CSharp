@@ -7,13 +7,13 @@ namespace Klingon_Desafio
 {
     public class Klingon
     {
-        readonly string _foo = "slfwk";
-        readonly char[] _alfabetoKlingon = { 'k', 'b', 'w', 'r', 'q', 'd', 'n', 'f', 'x', 'j', 'm', 'l', 'v', 'h', 't', 'c', 'g', 'z', 'p', 's' };
-        readonly char[] _alfabeto = { 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y' };
+        private readonly string _foo = "slfwk";
+        private readonly char[] _alfabetoKlingon = { 'k', 'b', 'w', 'r', 'q', 'd', 'n', 'f', 'x', 'j', 'm', 'l', 'v', 'h', 't', 'c', 'g', 'z', 'p', 's' };
+        private readonly char[] _alfabeto = { 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y' };
 
         public int GetQtdePreposicoes(string texto)
         {
-            int qtdePrep = 0;
+            var qtdePrep = 0;
             foreach (var palavra in texto.Split(" "))
             {
                 var ultimaLetra = palavra[palavra.Length - 1];
@@ -28,8 +28,8 @@ namespace Klingon_Desafio
 
         public int GetQtdeVerbos(string texto, bool primeira)
         {
-            int qtdeVerbo = 0;
-            int qtdeVerboPrimeira = 0;
+            var qtdeVerbo = 0;
+            var qtdeVerboPrimeira = 0;
             foreach (var palavra in texto.Split(" "))
             {
                 var ultimaLetra = palavra[palavra.Length - 1];
@@ -56,31 +56,30 @@ namespace Klingon_Desafio
 
         private static string[] GetTextoSemRepeticao(string texto)
         {
-            string textoSemRepeticao = "";
+            var textoSemRepeticao = new StringBuilder("");
             foreach (var palavra in texto.Split(" "))
             {
-                if (!textoSemRepeticao.Contains(" " + palavra + " "))
+                if (!textoSemRepeticao.ToString().Contains(" " + palavra + " "))
                 {
-                    if (textoSemRepeticao == "")
+                    if (textoSemRepeticao.Length == 0)
                     {
-                        textoSemRepeticao += palavra;
+                        textoSemRepeticao.Append(palavra);
                     }
                     else
                     {
-                        textoSemRepeticao += " " + palavra;
+                        textoSemRepeticao.Append(palavra);
                     }
                 }
             }
-            return textoSemRepeticao.Split(" ");
+            return textoSemRepeticao.ToString().Split(" ");
         }
 
         public string GetVocabulario(string texto)
         {
             var vocabulario = new Dictionary<string, string>();
-            string[] textoSemRepeticao = GetTextoSemRepeticao(texto);
-            string textoOrdenado = "";
-            string ordemLetras = "";
-            foreach (var palavra in textoSemRepeticao)
+            var textoOrdenado =new StringBuilder("");
+            var ordemLetras = "";
+            foreach (var palavra in GetTextoSemRepeticao(texto))
             {
                 ordemLetras = "";
                 foreach (var letra in palavra)
@@ -93,9 +92,10 @@ namespace Klingon_Desafio
             var vocabularioOrdenado = vocabulario.OrderBy(x => x.Value);
             foreach (var item in vocabularioOrdenado)
             {
-                textoOrdenado += item.Key + " ";
+                textoOrdenado.Append(item.Key + " ");
             }
-            return textoOrdenado.TrimEnd();
+            textoOrdenado.Remove(textoOrdenado.Length - 1, 1);
+            return textoOrdenado.ToString();
 
         }
 
