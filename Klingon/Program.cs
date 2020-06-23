@@ -4,13 +4,12 @@ using System.Linq;
 
 namespace Klingon_Desafio
 {
-    class Program
+    static class Program
     {
 
         static void Main(string[] args)
         {
-
-
+            throw new NotSupportedException();
         }
 
     }
