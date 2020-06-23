@@ -78,15 +78,15 @@ namespace Klingon_Desafio
         {
             var vocabulario = new Dictionary<string, string>();
             var textoOrdenado =new StringBuilder("");
-            var ordemLetras = "";
+            var ordemLetras = new StringBuilder("");
             foreach (var palavra in GetTextoSemRepeticao(texto))
             {
-                ordemLetras = "";
+                ordemLetras.Clear();
                 foreach (var letra in palavra)
                 {
-                    ordemLetras += _alfabeto[Array.IndexOf(_alfabetoKlingon, letra)];
+                    ordemLetras.Append( _alfabeto[Array.IndexOf(_alfabetoKlingon, letra)]);
                 }
-                vocabulario.Add(palavra, ordemLetras);
+                vocabulario.Add(palavra, ordemLetras.ToString());
             }
 
             var vocabularioOrdenado = vocabulario.OrderBy(x => x.Value);
