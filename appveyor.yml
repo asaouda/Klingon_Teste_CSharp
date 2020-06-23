@@ -8,5 +8,5 @@ build:
   project: Klingon/Klingon_Desafio.csproj
   verbosity: normal
 test_script:
-- cmd: cd Klingon_Desafio.Test
+- cmd: cd Klingon.Test
 - cmd: dotnet test
