@@ -3,10 +3,10 @@ version: 1.0.{build}
 configuration: Debug
 platform: Any CPU
 before_build:
-- cmd: nuget restore ./Challenge.sln
+- cmd: nuget restore ./Klingon_Desafio.sln
 build:
-  project: Source/Source.csproj
+  project: /Klingon_Desafio.csproj
   verbosity: normal
 test_script:
-- cmd: cd Source.Test
+- cmd: cd Klingon_Desafio.Test
 - cmd: dotnet test
