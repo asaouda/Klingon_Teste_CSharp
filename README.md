@@ -1,4 +1,4 @@
-#TESTE DE KLINGON
+# TESTE DE KLINGON
 -------------------------------
 [![Build status](https://ci.appveyor.com/api/projects/status/9h0u0aijrxodt2km?svg=true)](https://ci.appveyor.com/project/asaouda/klingon-teste-csharp)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/69e041ab7cb849b59b7ae291276048b0)](https://www.codacy.com/manual/asaouda/Klingon_Teste_CSharp?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=asaouda/Klingon_Teste_CSharp&amp;utm_campaign=Badge_Grade)
@@ -14,22 +14,22 @@ Esses pergaminhos estão no antigo e misterioso idioma Klingon. Após muitos ano
 
 Primeiramente, as letras Klingon são classificadas em dois grupos: as letras s, l, f, w e k são chamadas "letras tipo foo", enquanto que as demais são conhecidas como "letras tipo bar".
 
-##Preposições em Klingon
+## Preposições em Klingon
 
 Os linguistas descobriram que as preposições em Klingon são as palavras de 3 letras que terminam numa letra tipo bar, mas onde não ocorre a letra d. Portanto, é fácil ver que existem 63 preposições no Texto A.
 
-###E no Texto B, quantas preposições existem?
+### E no Texto B, quantas preposições existem?
 
 ##Verbos em Klingon
 Um outro fato interessante descoberto pelos linguistas é que, no Klingon, os verbos sempre são palavras de 8 ou mais letras que terminam numa letra tipo foo. Além disso, se um verbo começa com uma letra tipo bar, o verbo está em primeira pessoa.
 
 Assim, lendo o Texto A, é possível identificar 26 verbos no texto, dos quais 23 estão em primeira pessoa.
 
-###Já no Texto B, quantos são os verbos?
+### Já no Texto B, quantos são os verbos?
 
-###E quantos verbos do Texto B estão em primeira pessoa?
+### E quantos verbos do Texto B estão em primeira pessoa?
 
-##Lista de vocabulário em Klingon
+## Lista de vocabulário em Klingon
 Um professor universitário utilizará os textos A e B para ensinar o Klingon aos alunos. Para ajudar os alunos a compreender o texto, esse professor precisa criar uma lista de vocabulário para cada texto, isto é, uma lista ordenada (e sem repetições) das palavras que aparecem em cada um dos textos.
 
 Essas listas devem estar ordenadas e não podem conter repetições de palavras. No Klingon, assim como no nosso alfabeto, as palavras são ordenadas lexicograficamente, mas o problema é que no Klingon, a ordem das letras no alfabeto é diferente da nossa. O alfabeto Klingon, em ordem, é: 
@@ -42,4 +42,10 @@ O professor preparou a lista de vocabulário para o Texto A:
 Lista de vocabulário do Texto A:
 "kkr kkqrz kks kbf kwq kwlr kwzjrb krcbp krs kqqbz kqlxjmdn knwgqk kng knpprkz knsxpsj kfgzn kfs kxll kjqq kmk klsdcz khqhpxhz ktlpk kch kctqjsl kgqjfxsn kgcpg kztwskq kpfjlp ksc bbjcsnmh bwlc bwvpc brnkn brnfggrj brsbnk bdb bdxxvtfn bdjck bnjzqgb bnmnmrbh bfcb bxphb blrb bvgqqfg btb btsgvh bcqbwltn bcfnbcx bgpg bzqvnxs bzddqxkp bzh bsj bsgqvvvv bsgtc wkmk wksg wwhqdpqg wrmvbr wdwz wnbkmkvr wnbrptf wnfwhcrp wfw wffjnk wxhld wjvb wmqx wmnc wmslgqz wlj wvkzzjfj wvnbn wvpnz whmfnw whgszgvd wchmbn wgphtk wzrbhdkt wzjxcdb wpfsp wppgb rbsx rwnck rqj rqjdgpv rqhqz rqcprpcw rdkf rdctbpfp rfq rfqsp rxdrgkjp rlpdjtd rvvpg rvzlch rhjs rhpndvh rhpjs rhsj rtghx rcms rcz rgbk rgnq rgfgqfzp rgjhkb rgs rznlm rzhn rzc rpmlxxlt rpcw rspr qkwrxncc qkvwf qwmj qrmd qqmfxqv qdhnr qdph qdppk qxkdqpj qxzttrzf qjpwsmcg qmbzg qmqr qmdv qmzwzq qvm qvzhxdsv qtwtnwd qccz qcg qgnrnlhk qzzl qpvdsp qsqjjn qslnn dkvrsqw dkhz dbcm dwfjfprh dqbrjbg dqrzs dqjmmmp dqv dnnbqj dnvrhhc dxdlf dxnhl dldj dlpf dvnfs dtm dtsm dcbkws dcv dzlrx dzztm dsd nknlpfc nkxbvf nkhvwpd nbvdzrn nbhn nwxlpbqr nrthfqs nqqz nqcqnb ndqnq ndzzrxdn nflwl nxwpfmlj nxgsrkr njc nlmmslnb nvjkj ntwqnchk ntvs ncp ncpj ngszspnv nzwch nzgbmln npfbkj npfqnvq nsjrmnp nszzgp fbbrmxw fbdc fwqqqldj fwm fwvrqs fwthpfb frwjqm frhxmg fqrdt fqzpbc fnhgkb ffp fxxm fxz fjb fjht fjtwz fjtccn fjg fmrt fmpc ftqrbpg ftc fcnxx fclchmkb fgm fgmkc fzx fzjxmtns fpgp fsbh fsprt xbxdrc xbxp xwrhjp xrbv xrgtzxc xqhn xqshpc xdtvpjhs xdssrljz xntwrhp xfpdfhpw xxdkftl xxfcwq xjb xmktdqs xmbhxlml xmq xmpbnp xlwrfcwq xvwh xvdnk xhdlgp xcffkzm xgl xgldndlt xgtrsvbj xzfhwn xzftrjg xpxcg xslxdrr jkvw jkprpc jbqrftv jbdxmb jbgx jwlspvwn jwgbbs jrjzsmh jrhhl jqqk jqqhctv jdx jdssqdds jfhpql jxdqjc jjxlncpn jmjmnqwj jlvf jvjdwsh jvmrsxz jvsf jtbblclw jtlg jtg jck jcl jch jchqs jgx jghvh jzgtdtst jsm mkst mbrwt mbxtgzhz mbmwbflw mbpv mbs mbspg mwjtkdf mrd mrft mrh mqf mqcwb mdl mfdtp mfskzwd mxmgkxvg mxlxblj mml mlksdv mlwqjxgt mlc mvrwtm mvlznjbs mvvwmsbv mhfz mccxbmj mghxmtp mzswtb mpm msn lklksspg lkclqnrs lbhchcdz lwd lrrdz lrqbxdqb lqnwmztx lnvxmsk lfhlp lxws lxsxfqn ljs lmhcc lmzsv lmskl lvbgtsm lvwwrk lhbmhq ltqpph ltdtqrd ltvw lgmnjgw lzd lzf lzhcm lpjppbb lpcpp lppcbl lskqvwz vbfllt vwrdkfbs vwrpqgh vwm vwv vwzwl vql vqvsftk vqgvcq vqzggb vdflfqs vdxxxrvs vfklm vfvjvjhk vxp vjwzjmn vjqckhkc vjftvvx vlrnzbqn vvr vhxxhk vhxhlp vtf vtxk vtmfg vtlfdh vtcsh vcsbh vgrk vzsw vptms vppzfv vsw vsr vsvw hkjbls hkv hbkxjht hbv hwcxxj hrhskq hqkqrlqq hdbjlj hdcrmxz hdpcgrf hnqgg hnzbfvs hxwsvt hxd hxn hmkzq hmfcnjtd hmvwqnps hmvnxfwd hlrrvg hlnfvk hvd hvmscx hhw hhrxq hhrc hhjfz htrh htjjnfg htczjl hcrtb hclw hzmrchx hzsq hsbm hsqgkhm hsvqw hssddc tkfscrmq tbq twndc twgffp twpz tqrsztnh tqfxrbr tqjckk tqgvq tnrrmc tntr tng txktscz txf txmgknxk txvghq tmwshk tlvhvq tvkc ttfr ttxm tcf tcxcf tghhrf tzlgfp tzv tzz tpkndf tpmpk cbwpgf crwstts crqsnlpp crtlpf cqbkq cqzx cdwcbph cdhsspgx cdzvdl cdsqqhnm cnhg cfb cfrzw cfpwpm cxqxhq cxxc cxlvr cjldqqbl cjhdddn cmkfhshr clftm cljqnm chq chfpsxq chzghzr chpwb cgp czj csrcr cscvwnm csch gkqfrpw gbxkk gbmnnnx gbtdlfz gbpxd grb grzj gqtvjlsw gdbnszk gnhpjjhf gfkzcl gffqvwf gfptj gxf gjtx gjpsmc gmwwtb gmq gmxrcl glbqz glwth glcvbs ghkt gtxdhxkl gtjrzkqq gtvhlcs gcr gznb gzhwxlxk gprl gszffz zkg zbnm zbvjwc zrqzjjv zrlslx zrtqk zdmfr zdcvth znjpdq zfkzxk zfrdfjkv zfq zfmcmjdl zfh zlqlndf zlhlfgh zvrg zvgbgb zhctgvl zhs ztdnzg zclnfzv zcvmrckj zcshqzwn zgbswzr zgfztg zgsjn zzkmm zzrfnk zzmv zpwxfmj zpn zpxwmsg zsqwl zsnjvmv zsjvxx pktfltsk pbxp pbzqvs pqls pddkbdz pnbbxsht pnskmbgn pfdbs pfvbjx pxbbcfwj pjdvb pmz pmpr plwcvdx plqnjsk plgf pvrcjdc pvlhvnn phx phlhjcm ptl pct pcz pczwpdqg pgl pzq pzgfkkl ppwn pprmv skxk sbplvr swgv sqdkm sqfnqttc snwtpwtr sffczr sxkftwmg sxrdjgvf sjlkk sjzmnfx slfn svkzqttr svfnm svtx shtd shcrwqkh shsdr stnkc stfdpfgc sgfxxd szdbb szfpkrjv spdv splq spgqpfkh sszdlff"
 
-###Como seria a lista de vocabulário do Texto B?
+### Como seria a lista de vocabulário do Texto B?
+
+# Como rodar
+Rode os testes para ver o resultado
+```
+dotnet test
+```
